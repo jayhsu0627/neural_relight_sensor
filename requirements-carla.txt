@@ -1,0 +1,8 @@
+# CARLA closed loop (carla/). The CARLA 0.9.16 server is installed separately.
+-r requirements.txt
+carla==0.9.16
+ultralytics>=8.4
+pygame
+opencv-python
+matplotlib
+scipy

@@ -1,0 +1,8 @@
+# LoRA training (train/)
+-r requirements.txt
+datasets
+torchao>=0.15        # --do_fp8_training
+torchvision
+bitsandbytes         # optional: --use_8bit_adam
+wandb                # optional: --report_to wandb
+tqdm

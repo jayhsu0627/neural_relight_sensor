@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+runs/
+wandb/
+carla/results/
+eval/*/outputs/
+.ipynb_checkpoints/

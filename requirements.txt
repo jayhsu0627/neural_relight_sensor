@@ -1,0 +1,10 @@
+# Relighting (relight/). Tested with torch 2.10.0, diffusers 0.42.0.dev0 @ 48cdbae, transformers 5.14.1.
+# Flux2KleinPipeline needs a recent diffusers; install from source if your release lacks it.
+torch>=2.6
+diffusers @ git+https://github.com/huggingface/diffusers.git@48cdbaef5ee3d718aaee392b44f2099ae511c4a5
+transformers>=5.2
+accelerate>=1.12
+peft>=0.18
+safetensors
+pillow
+numpy

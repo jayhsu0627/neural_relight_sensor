@@ -1,0 +1,7 @@
+# Static evaluation (eval/)
+-r requirements.txt
+ultralytics>=8.4
+opencv-python
+pandas
+scikit-learn
+tqdm

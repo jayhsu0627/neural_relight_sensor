@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "neural-relight-sensor"
+version = "1.0.0"
+description = "Real-time diffusion relighting (FLUX.2-klein-4B + Delight LoRA) as an on-demand neural sensor"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "Apache-2.0"}
+dependencies = ["torch>=2.6", "diffusers", "transformers>=5.2", "accelerate>=1.12", "peft>=0.18",
+                "safetensors", "pillow", "numpy"]
+
+[tool.setuptools]
+packages = ["relight"]
